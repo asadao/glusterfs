@@ -1,0 +1,40 @@
+{
+  "clusters": [
+    {
+      "nodes": [
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "gluster01"
+              ],
+              "storage": [
+                "192.168.41.192"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/xvdb"
+          ]
+        },
+        {
+          "node": {
+            "hostnames": {
+              "manage": [
+                "gluster02"
+              ],
+              "storage": [
+                "192.168.116.124"
+              ]
+            },
+            "zone": 1
+          },
+          "devices": [
+            "/dev/xvdb"
+          ]
+        }
+      ]
+    }
+  ]
+}
